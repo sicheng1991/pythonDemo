@@ -2,7 +2,7 @@ from unittest import TestCase
 '单元测试'
 __author__ = 'yangzteL'
 
-import first
+from main import first
 
 
 class TestCalc(TestCase):

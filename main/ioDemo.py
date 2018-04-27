@@ -86,7 +86,7 @@ class IOHandler(object):
         # print(type1)
 
     def serializeHandel(self):
-        from student import student
+        from main.student import student
         import json
         student1 = student('yangzteL',89)
         str = json.dumps(student1,default = student.student2dict)
