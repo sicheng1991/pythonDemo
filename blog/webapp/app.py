@@ -8,8 +8,8 @@ from datetime import datetime
 from aiohttp import web
 
 def index(request):
-
-    return web.Response(body=b'<h1>Awesome</h1>',headers={'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit'})
+    # 不加这个 header chrome会直接下载  headers={'content-type': 'text/html;charset=utf-8'
+    return web.Response(body=b'<h1>Awesome</h1>',headers={'content-type': 'text/html;charset=utf-8'})
 
 @asyncio.coroutine
 def init(loop):

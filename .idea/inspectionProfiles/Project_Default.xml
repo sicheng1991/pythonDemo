@@ -6,6 +6,8 @@
         <list>
           <option value="first.getArr" />
           <option value="first.*" />
+          <option value="blog.bean.model.ModelMetaclass" />
+          <option value="blog.bean.model.create_args_string" />
         </list>
       </option>
     </inspection_tool>
