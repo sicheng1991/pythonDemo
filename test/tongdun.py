@@ -10,7 +10,7 @@ from xlutils.copy import copy
 def get_db():
     # 获取游标
     # return cx_Oracle.connect('zhfq/kbXVExAY@192.168.7.202:1521/putest')
-    return cx_Oracle.connect('ZHHAPPUSER/I4Zu1SrY@192.168.200.61:50001/phzhapp')
+    return cx_Oracle.connect('zhfq/kbXVExAY@192.168.7.202:1521/putest')
 
 
 def testOracle():
